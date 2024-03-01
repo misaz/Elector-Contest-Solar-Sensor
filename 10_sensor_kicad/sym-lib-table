@@ -1,0 +1,8 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ADP5091")(type "KiCad")(uri "${KIPRJMOD}/Lib/ADP5091/ADP5091.kicad_sym")(options "")(descr ""))
+  (lib (name "MAX32660")(type "KiCad")(uri "${KIPRJMOD}/Lib/MAX32660/MAX32660.kicad_sym")(options "")(descr ""))
+  (lib (name "MAX41460")(type "KiCad")(uri "${KIPRJMOD}/Lib/MAX41460/MAX41460.kicad_sym")(options "")(descr ""))
+  (lib (name "MAX31889")(type "KiCad")(uri "${KIPRJMOD}/Lib/MAX31889/MAX31889.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS7A02")(type "KiCad")(uri "${KIPRJMOD}/Lib/TPS7A02/TPS7A02.kicad_sym")(options "")(descr ""))
+)

@@ -1,0 +1,18 @@
+.sensor {
+	margin: 10px;
+	padding: 10px;
+	border: 1px solid black;
+}
+
+.sensor .name,
+.sensor .temperature {
+	font-size: 36pt;
+}
+
+.sensor .battery, .sensor .sensor-id {
+	font-size: 16pt;
+}
+
+.status {
+	font-size: 30pt;
+}

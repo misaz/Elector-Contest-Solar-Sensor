@@ -1,0 +1,13 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/20_sensor_stm32l053_fw/SolarTemperatureSensor_V2/Drivers/CMSIS
+/20_sensor_stm32l053_fw/SolarTemperatureSensor_V2/Drivers/STM32L0xx_HAL_Driver
+/20_sensor_stm32l053_fw/SolarTemperatureSensor_V2/Middlewares/Third_Party/wolfSSL_wolfSSL_wolfSSL/wolfssl
+/20_sensor_stm32l053_fw/SolarTemperatureSensor_V2/wolfSSL
+/30_gateway_stm32wl55_fw/SolarSensorGatewayNucleo/Drivers/CMSIS
+/30_gateway_stm32wl55_fw/SolarSensorGatewayNucleo/Drivers/STM32WLxx_HAL_Driver
+/30_gateway_stm32wl55_fw/SolarSensorGatewayNucleo/Drivers/STM32WLxx_Nucleo
+/30_gateway_stm32wl55_fw/SolarSensorGatewayNucleo/Drivers/stm32_radio_driver

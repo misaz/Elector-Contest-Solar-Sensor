@@ -1,0 +1,41 @@
+#ifndef RADIO_H_
+#define RADIO_H_
+
+#include <stdint.h>
+#include <stddef.h>
+
+#define RADIO_TRANSMIT_PREAMBLE_PULSES 8
+#define RADIO_TRANSMIT_SYNC_BYTES 4
+#define RADIO_TRANSMIT_MAX_LEN_BYTES 32
+#define RADIO_TRANSMIT_TERMINATION_PULSES 2
+
+#define MAX41460_REG_CFG1	0x00
+#define MAX41460_REG_CFG2	0x01
+#define MAX41460_REG_CFG3	0x02
+#define MAX41460_REG_CFG4	0x03
+#define MAX41460_REG_CFG5	0x04
+#define MAX41460_REG_SHDN	0x05
+#define MAX41460_REG_PA1	0x06
+#define MAX41460_REG_PA2	0x07
+#define MAX41460_REG_PLL1	0x08
+#define MAX41460_REG_PLL2	0x09
+#define MAX41460_REG_CFG6	0x0A
+#define MAX41460_REG_PLL3	0x0B
+#define MAX41460_REG_PLL4	0x0C
+#define MAX41460_REG_PLL5	0x0D
+#define MAX41460_REG_PLL6	0x0E
+#define MAX41460_REG_PLL7	0x0F
+#define MAX41460_REG_CFG7	0x10
+#define MAX41460_REG_CFG8	0x17
+#define MAX41460_REG_CFG9	0x18
+#define MAX41460_REG_ADDL1	0x19
+#define MAX41460_REG_ADDL2	0x1A
+
+#define Txo_MICROSECONDS	243
+#define Tpll_MICROSECONDS	90
+#define Ttx_MICROSECONDS	10
+
+void Radio_Init();
+int Radio_TransmitMessage(uint8_t* data, size_t len);
+
+#endif
